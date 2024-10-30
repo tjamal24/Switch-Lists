@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Halloween Recipe Ideas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Halloween Recipe Ideas</h1>
+
+    <label>
+        <input type="radio" name="recipeType" value="sweet" checked onclick="showRecipes('sweet')">
+        Sweet Treats
+    </label>
+
+    <label>
+        <input type="radio" name="recipeType" value="savory" onclick="showRecipes('savory')">
+        Savory Eats
+    </label>
+
+    <div id="recipe-list"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>
